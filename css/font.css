@@ -1,0 +1,33 @@
+/*===============Montserrat=============*/
+
+@font-face {
+    font-family: 'Montserrat_regular';
+    src: url('../fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat_bold';
+    src: url('../fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+/*==============Kushan_script================*/
+
+@font-face {
+    font-family: 'Kushan_regular';
+    src: url('../fonts/Kushan_script/KaushanScript-Regular.ttf');
+}
+
+/*===============DroidSans=============*/
+
+@font-face {
+    font-family: 'DroidSans_regular';
+    src: url('../fonts/DroidSans/DroidSans.ttf');
+    font-weight: 400;
+}
+
+/*============Roboto Slab=============*/
+
+@font-face {
+    font-family: 'RobotoSlab_regular';
+    src: url('../fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+}

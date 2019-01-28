@@ -1,0 +1,99 @@
+@media(max-width: 1200px) {
+    .about_block_description {
+        max-width: 350px;
+    }
+    .contact_us_inp_block {
+        max-width: 450px;
+    }
+}
+
+@media(max-width: 991px) {
+    .header_nav_content_block, .header_nav_menu_block ul {
+        display: block;
+    }
+    .header_nav_menu_block {
+        margin-top: 25px;
+        position: absolute;
+        z-index: 999;
+    }
+    .header_nav_menu_block ul li {
+        margin-top: 10px;
+    }
+    .header_nav_menu_block ul li:first-child {
+        margin-top: 0;
+    }
+    .header_nav_content_block {
+        padding: 0 15px;
+    }
+    .header_content h1 {
+        font-size: 50px;
+    }
+    .header_content h3 {
+        font-size: 30px;
+    }
+    .partners_items {
+        margin-bottom: 35px;
+    }
+    .partners_items:last-child {
+        margin-bottom: 0;
+    }
+    .about_block_icons {
+        right: auto;
+        margin: 0;
+    }
+    .about_block_content::before {
+        right: auto;
+        margin: 0;
+        left: 85px;
+    }
+    .about_block_row .about_block_description {
+        text-align: left !important;
+        margin-left: auto !important;
+        margin-right: unset !important;
+        padding-left: 0 !important;
+    }
+    .contact_form_block {
+        flex-direction: column;
+    }
+    .contact_us_inp_block {
+        margin: 0 auto;
+    }
+    .contact_us_inp_block textarea {
+        height: 150px;
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 767px) {
+    .about_block_content::before {
+        display: none;
+    }
+    .about_block_icons {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .about_block_row .about_block_description {
+        text-align: center !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-top: 200px;
+    }
+    .header_content h1 {
+        font-size: 30px;
+    }
+    .header_content h3 {
+        font-size: 20px;
+    }
+    .header_content button {
+        width: 180px;
+        min-height: 50px;
+        font-size: 14px;
+    }
+    header {
+        min-height: 600px;
+    }
+    .services_block {
+        padding-bottom: 50px;
+    }
+}
