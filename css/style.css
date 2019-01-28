@@ -145,6 +145,15 @@ header {
     text-transform: uppercase;
     color: #fff;
     letter-spacing: 1px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.header_nav_menu_block ul li a:hover {
+    color: #fed136;
 }
 
 .header_logo_block {
@@ -193,6 +202,16 @@ header {
     font-family: 'Montserrat_bold';
     font-size: 18px;
     color: #fff;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.header_content button:hover {
+    background: #fff;
+    color: #000;
 }
 
 .services_block__items_icon {
